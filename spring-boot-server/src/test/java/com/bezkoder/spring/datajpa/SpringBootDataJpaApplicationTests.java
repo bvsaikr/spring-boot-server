@@ -7,6 +7,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 class SpringBootDataJpaApplicationTests {
 	
 @Test
-void contextLoads() {
+public void main() {
+	SpringBootDataJpaApplication.main(new String[] {});
+	
 }
 }
